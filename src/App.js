@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './index.css';
 import Header from './components/Header';
-import About from './components/About';
 import Footer from './components/Footer';
 
 function App() {
@@ -10,7 +9,6 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <About></About>
       <Footer></Footer>
     </div>
   );
