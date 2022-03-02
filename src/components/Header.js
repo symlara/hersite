@@ -1,52 +1,24 @@
-import React, { useState } from 'react';
-import '../../src/index.css'
-import 'tachyons';
-import About from './About';
+import React from 'react';
 import Nav from './Nav';
-import Albums from './Albums';
-import Dashboard from './Dashboard';
-import Samples from './Samples';
-import Socials from './Socials';
+import '../../src/index.css'
+import image from '../assets/images/her-returns-to-form-on-her-debut-album-back-of-my-mind.jpg';
+import 'tachyons';
 
 
-function Header() {
-    const [currentPage, handlePageChange] = useState("About");
-
-    const renderPage = () => {
-        switch (currentPage) {
-            case "About":
-                return <About />;
-                case "Albums":
-                    return <Albums />;
-                    case "Samples":
-                        return <Samples />;
-                        case "Dashboard":
-                            return <Dashboard />;
-                            case "Socials":
-                                return <Socials />;
-
-                                default:
-                                    return <About />;
-        }
-    };
+function Header(props) {
+    const { currentPage, handlePageChange} = props;
 
     return (
-        <div>
-            <nav class="pa1 pa3-ns" id="nav-items">
-                <a class="link dim white dib mr3" href="#about" title="about">About</a>
-                <a class="link dim white dib mr3" href="#discography" title="Discography">Albums</a>
-                <a class="link dim white dib mr3" href="#deezer" title="Samples">Samples</a>
-                <a class="link dim white dib mr3" href="#dashboard" title="dashboard">Dashboard</a>
-                <a class="link dim white dib mr3" href="#socials" title="Socials">Socials</a>
-              </nav>
-                    {/* Pass the state value and the setter as props to NavTabs */}
-              <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-                    
-                    {/* Call the renderPage function passing in the currentPage */}
-              <main>
-                  <div>{renderPage(currentPage)}</div>
-              </main>
-        </div>
+        <header>
+            <div>
+            <div id="header">
+            <h1><a class="link dim white dib mr3 her tc" href="/" title="About"><i>H.E.R</i></a></h1>            
+            </div>
+                <Nav currentPage={currentPage}
+                handlePageChange={handlePageChange} />
+                <img src={image} alt="back-of-my-mind" id="hero" />
+            </div>
+        </header>
     );
 }
 
