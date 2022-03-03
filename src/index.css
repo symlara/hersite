@@ -39,10 +39,11 @@ body {
 }
 
 /* nav styles */
-.flex-row {
+
+/* .flex-row {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
 .nav-link:hover {
   opacity: 1;
@@ -50,29 +51,21 @@ body {
   color: lightgray;
 }
 
-nav ul {
-  position: fixed;
-  top: 0px;
-  overflow: hidden;
-  width: 100%;
-}
-
-
-ul {
-  list-style-type: none;
-}
 
 .nav-link {
   color: #ffffff;
   cursor: pointer;
   padding-left: 20px;
+  padding-right: 15px;
   text-decoration: none;
   font-size: 20px;
 }
 
-.fixed nav{
-  position: fixed;
+#nav-items {
+  padding-bottom: 10px;
+  padding-top:1px;
 }
+ 
 
 /* about section */
 .about-items p{
