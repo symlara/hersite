@@ -70,12 +70,22 @@ ul {
   font-size: 20px;
 }
 
-
-/* about section */
-#about h2 {
-  font-size: 35px;
+.fixed nav{
+  position: fixed;
 }
 
-#about p {
-  font-size: 18px;
+/* about section */
+.about-items p{
+  font-size: 20px;
+}
+
+.about-items h4{
+  font-size:30px;
+}
+
+
+/*albums section */
+
+#discography h1 {
+  color: #ffffff;
 }
