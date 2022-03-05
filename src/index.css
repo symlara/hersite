@@ -15,6 +15,14 @@ body {
     monospace;
 } */
 
+.left {
+  text-align: left;
+}
+
+.right{ 
+  text-align:right;
+}
+
 /* header styles */
 #hero{
   width:100%;
@@ -81,4 +89,17 @@ body {
 
 #discography h1 {
   color: #ffffff;
+}
+
+/* sample styles */
+
+#samples {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#samples:hover{
+  opacity: 1;
+  transition: opacity .15s ease-in;
+  color: lightgray;
 }

@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 import './index.css';
+
+import Samples from './components/Samples';
 import Header from './components/Header';
 import About from './components/About';
 import Albums from './components/Albums';
-import Samples from './components/Samples';
 import Dashboard from './components/Dashboard';
 import Socials from './components/Socials';
 import Footer from './components/Footer';
 
-function App() {
+
+
+function App () { 
 const [currentPage, handlePageChange] = useState("About");
 
   // The renderPage method uses a switch statement to render the appropriate current page
@@ -20,7 +23,7 @@ const [currentPage, handlePageChange] = useState("About");
             case "Albums":
                 return <Albums />;
                 case "Samples":
-                    return <Samples />;
+                  return <Samples />;
                     case "Dashboard":
                         return <Dashboard />;
                         case "Socials":
@@ -42,6 +45,7 @@ const [currentPage, handlePageChange] = useState("About");
         <main>
           <div>
           {renderPage(currentPage)}
+          {/* <Samples></Samples> */}
           </div>
         </main>
       
