@@ -4,7 +4,7 @@ import 'tachyons';
 
 
 function Nav(props) {
-    const tabs = ["About", 'Albums', "Samples", "Dashboard", "Socials"];
+    const tabs = ["About", 'Albums', "Samples", "Dashboard"];
     return (
       <div>
         <nav className="pa1 pa3-ns flex-row" id="nav-items">
