@@ -6,7 +6,7 @@ import 'tachyons';
 
 function Samples () {
     return (
-        <div className='samples'>
+        <div>
        {
          data && data.map ( data => {
            return (
@@ -15,13 +15,10 @@ function Samples () {
 
               { data.readable ? (
 
-            <div className="main">    
+            <div className="main"> 
+              <div className="fl f3 tc lh-copy pv3" id="samples">
 
-                {/* left side */}
-
-              <div className="left">
-
-                 <a id="samples" href={data.preview}>{data.title}</a>
+                 <a href={data.preview}>{data.title}</a>
               </div>
             </div>
               ) : null }

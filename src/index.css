@@ -15,9 +15,6 @@ body {
     monospace;
 } */
 
-.left {
-  text-align: left;
-}
 
 .right{ 
   text-align:right;
@@ -94,12 +91,26 @@ body {
 /* sample styles */
 
 #samples {
-  text-decoration: none;
-  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
-#samples:hover{
+
+
+
+#samples a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  font-style: italic;
+  
+}
+
+#samples a:hover{
   opacity: 1;
   transition: opacity .15s ease-in;
   color: lightgray;
 }
+
+
+/* footer */ 
