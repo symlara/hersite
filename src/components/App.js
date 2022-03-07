@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { HashRouter, Route } from 'react-router-dom';
 import Ably from './Ably';
-import CommentBox from './CommentBox';
 import Dashboard from './Dashboard';
 // import './index.css';
 
@@ -65,22 +64,6 @@ class App extends Component {
           <Footer />
         </div>
       </HashRouter>
-
-
-       <div>
-
-      <section className="section">
-        <div className="container">
-          <div className="columns">
-            <div className="column is-half is-offset-one-quarter">
-              <CommentBox /> 
-              {/* This is how the Comments component receives the comments it renders. */}
-              {/* <Dashboard comments={this.state.comments} /> */}
-            </div>
-          </div>
-        </div>
-      </section>
-      </div>
     </div>
    
     );
