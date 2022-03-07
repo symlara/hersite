@@ -34,7 +34,7 @@ messageDateGet() {
           <div className="content">
             <span className="user-name">{this.userName} </span>
             <span className="message-date">{this.messageDate}</span>
-            <p>{this.commentText}</p>
+            <p className="comment-text">{this.commentText}</p>
           </div>
         </div>
       </article>

@@ -36,10 +36,10 @@ class CommentBox extends Component {
     render() {
       return (
         <div>
-          <h1 className="title">Please leave your feedback below</h1>
+          <h1 className="title">Leave your comment below!</h1>
           <form onSubmit={this.addComment}>
             <div className="field">
-              <div className="control">
+              <div className="control" id="name">
                 <input
                   type="text"
                   className="input"
@@ -47,9 +47,10 @@ class CommentBox extends Component {
                   placeholder="Your name"
                 />
               </div>
+              <br></br>
             </div>
             <div className="field">
-              <div className="control">
+              <div className="control" id="comment">
                 <textarea
                   className="textarea"
                   name="comment"
@@ -57,9 +58,10 @@ class CommentBox extends Component {
                 ></textarea>
               </div>
             </div>
+            <br></br>
             <div className="field">
               <div className="control">
-                <button className="button is-primary">Submit</button>
+                <button className="button is-primary bg-black white">Submit</button>
               </div>
             </div>
           </form>

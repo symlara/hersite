@@ -43,10 +43,12 @@ class Dashboad extends Component {
           <section className="section">
             <div className="container">
               <div className="columns">
-                <div className="column is-half is-offset-one-quarter">
+                <div className="dashboard center">
+                  <p>
                   <CommentBox /> 
                   {/* This is how the Comments component receives the comments it renders. */}
                   <Comments comments={this.state.comments} />
+                  </p>
                 </div>
               </div>
             </div>
