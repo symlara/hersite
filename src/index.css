@@ -25,6 +25,7 @@ body {
 #hero{
   width:100%;
   height: auto;
+  
 }
 
 .her {
@@ -74,38 +75,40 @@ body {
  
 
 /* about section */
-.about-items p{
-  font-size: 25px;
+.about  {
+  font-size: 20px;
+  
 }
 
-.about-items h4{
-  font-size:30px;
+#about  {
+  text-align:center;
 }
+
+.tc {
+  text-align: center;
+}
+
+
+/* socials styles */
 
 
 /*albums section */
 
-#discography h1 {
-  color: #ffffff;
-}
 
 /* sample styles */
-
-#samples {
-  font-size: 20px;
-  line-height: 1.5;
-}
-
 
 
 
 #samples a {
+  font-size: 20px;
   color: #fff;
-  text-decoration: none;
-  padding: 20px;
+  text-decoration: none; 
   font-style: italic;
-  
+  padding: 42px;
+  display:wrap;
+  line-height: 2.5
 }
+
 
 #samples a:hover{
   opacity: 1;
@@ -161,5 +164,18 @@ body {
 }
 
 /* footer */ 
+.footer {
+  background-color:#000000;
+  width: 100%;
+  bottom: 0;
+  height: 50px;
+ 
+}
 
+.footer p {
+  font-size: 18px;
+}
+
+
+/* media queries */
 

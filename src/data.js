@@ -1,5 +1,5 @@
 
-    const DATA = [
+const data =[
         {
             "id": 417767122,
             "readable": true,
@@ -362,7 +362,7 @@
         },
         {
             "id": 511943922,
-            "readable": true,
+            "readable": false,
             "title": "This Way (From SUPERFLY - Original Soundtrack)",
             "title_short": "This Way",
             "title_version": "(From SUPERFLY - Original Soundtrack)",
@@ -522,7 +522,7 @@
         },
         {
             "id": 738911342,
-            "readable": true,
+            "readable": false,
             "title": "Going (Full)",
             "title_short": "Going (Full)",
             "title_version": "",
@@ -562,7 +562,7 @@
         },
         {
             "id": 417767132,
-            "readable": true,
+            "readable": false,
             "title": "Lights On",
             "title_short": "Lights On",
             "title_version": "",
@@ -762,7 +762,7 @@
         },
         {
             "id": 936674222,
-            "readable": true,
+            "readable": false,
             "title": "Wrong Places (from Songland)",
             "title_short": "Wrong Places (from Songland)",
             "title_version": "",
@@ -882,7 +882,7 @@
         },
         {
             "id": 829018572,
-            "readable": true,
+            "readable": false,
             "title": "One Second (feat. H.E.R.)",
             "title_short": "One Second (feat. H.E.R.)",
             "title_version": "",
@@ -999,8 +999,129 @@
                 "type": "album"
             },
             "type": "track"
-        }
+        },
+        {
+            "id":865683652,
+            "readable":true,
+            "title":"Comfortable",
+            "title_short":"Comfortable",
+            "title_version":"",
+            "isrc":"USRC11903472",
+            "link":"https://www.deezer.com/track/865683652",
+            "share":"https://www.deezer.com/track/865683652?utm_source=deezer&utm_content=track-865683652&utm_term=0_1646773819&utm_medium=web",
+            "duration":255,
+            "track_position":1,
+            "disk_number":1,
+            "rank":667062,
+            "release_date":"2020-02-05",
+            "preview":"https://cdns-preview-9.dzcdn.net/stream/c-931c8659449a5685caecb1922ec4530c-5.mp3",
+            },
+            {
+            "id":1406489112,
+            "readable":true,
+            "title":"Process",
+            "title_short":"Process",
+            "title_version":"",
+            "link":"https://www.deezer.com/track/1406489112",
+            "duration":234,
+            "rank":311895,
+            "explicit_lyrics":false,
+            "explicit_content_lyrics":0,
+            "explicit_content_cover":2,
+            "preview":"https://cdns-preview-6.dzcdn.net/stream/c-6e90dff5e88e261127fbef5b9a0cd465-3.mp3",
+            "md5_image":"fcf744b07812c23371ba8b9f24a4eaea"
+            },
+            {
+                "id":1547805662,
+                "readable":true,
+                "title":"Intimidated (feat. H.E.R.)",
+                "title_short":"Intimidated (feat. H.E.R.)",
+                "title_version":"",
+                "isrc":"USRC12102824",
+                "link":"https://www.deezer.com/track/1547805662",
+                "share":"https://www.deezer.com/track/1547805662?utm_source=deezer&utm_content=track-1547805662&utm_term=0_1646776194&utm_medium=web",
+                "duration":207,
+                "track_position":1,
+                "disk_number":1,
+                "rank":802991,
+                "release_date":"2021-11-19",
+                "explicit_lyrics":false,
+                "explicit_content_lyrics":0,
+                "explicit_content_cover":2,
+                "preview":"https://cdns-preview-a.dzcdn.net/stream/c-ad629ad29c0096692e7565f2f29332f8-3.mp3"
+            },
+            {
+                "id":1617210212,
+                "readable":true,
+                "title":"Chronicles (feat. H.E.R. & Lil Durk)",
+                "title_short":"Chronicles (feat. H.E.R. & Lil Durk)",
+                "title_version":"",
+                "isrc":"USAT22107999",
+                "link":"https://www.deezer.com/track/1617210212",
+                "share":"https://www.deezer.com/track/1617210212?utm_source=deezer&utm_content=track-1617210212&utm_term=0_1646776446&utm_medium=web",
+                "duration":212,
+                "track_position":10,
+                "disk_number":1,
+                "rank":703058,
+                "release_date":"2022-01-14",
+                "explicit_lyrics":true,
+                "explicit_content_lyrics":1,
+                "explicit_content_cover":2,
+                "preview":"https://cdns-preview-a.dzcdn.net/stream/c-a2a9ec4b630cda710c10e202679cba31-3.mp3",
+            },
+            {
+                "id":1642020542,
+                "readable":true,
+                "title":"Closer (feat. H.E.R.)",
+                "title_short":"Closer (feat. H.E.R.)",
+                "title_version":"",
+                "link":"https://www.deezer.com/track/1642020542",
+                "duration":168,
+                "rank":100000,
+                "explicit_lyrics":true,
+                "explicit_content_lyrics":1,
+                "explicit_content_cover":2,
+                "preview":"https://cdns-preview-6.dzcdn.net/stream/c-67756cb913d842be866c87467bcfe46c-5.mp3"
+            },
+            {
+                "id":1406488972,
+                "readable":true,
+                "title":"Back of My Mind (feat. Ty Dolla $ign)",
+                "title_short":"Back of My Mind (feat. Ty Dolla $ign)",
+                "title_version":"",
+                "isrc":"USRC12101806",
+                "link":"https://www.deezer.com/track/1406488972",
+                "share":"https://www.deezer.com/track/1406488972?utm_source=deezer&utm_content=track-1406488972&utm_term=0_1646777905&utm_medium=web",
+                "duration":221,
+                "track_position":2,
+                "disk_number":1,
+                "rank":481546,
+                "release_date":"2021-06-18",
+                "explicit_lyrics":true,
+                "explicit_content_lyrics":1,
+                "explicit_content_cover":2,
+                "preview":"https://cdns-preview-f.dzcdn.net/stream/c-f9d1c9043cba98fb8ea0fefb294931d8-3.mp3"
+            },
+            {
+                "id":1406489022,
+                "readable":true,
+                "title":"Bloody Waters",
+                "title_short":"Bloody Waters",
+                "title_version":"",
+                "isrc":"USRC12101809",
+                "link":"https://www.deezer.com/track/1406489022",
+                "share":"https://www.deezer.com/track/1406489022?utm_source=deezer&utm_content=track-1406489022&utm_term=0_1646778020&utm_medium=web",
+                "duration":260,
+                "track_position":6,
+                "disk_number":1,
+                "rank":597945,
+                "release_date":"2021-06-18",
+                "explicit_lyrics":false,
+                "explicit_content_lyrics":0,
+                "explicit_content_cover":2,
+                "preview":"https://cdns-preview-c.dzcdn.net/stream/c-ce31d5a611d7526db2ca31e6e13f93f2-3.mp3"
+            }
     ]
    
 
-    export default DATA;
+  export default data;

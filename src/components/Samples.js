@@ -7,32 +7,31 @@ import 'tachyons';
 function Samples () {
     return (
         <div>
-       {
-         data && data.map ( data => {
-           return (
 
-            <div key={ data.id }>
+            { 
+              data && data.map( data => {
+                return (
+                    <div key={ data.id }>
 
-              { data.readable ? (
+                      { data.readable ? (
 
-            <div className="main"> 
-              <div className="fl f3 tc lh-copy pv3" id="samples">
+                      <div className="main">
 
-                 <a href={data.preview}>{data.title}</a>
-              </div>
-            </div>
-              ) : null }
-              
-              
-            </div>
+                          <div className="lh-copy tc fl" id="samples">
 
-           )
-         })
-       }
+                            <a href={ data.preview }>{ data.title }</a>
+                          </div>
 
-       
+                       </div>
+
+                      ) : null }
+
+                    </div>
+                )
+              })
+            }
      </div>
-    )
+    );
 }
 
 export default Samples;

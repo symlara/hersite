@@ -4,6 +4,7 @@ import 'tachyons';
 
 
 function Nav(props) {
+  
     const tabs = ["About", 'Albums', "Samples", "Dashboard"];
     return (
       <div>
@@ -23,32 +24,7 @@ function Nav(props) {
       </div>
     )
 
-// {/* <div>
-//   <nav class="navbar">
-//       <ul className="flex-row" id="nav">
-//           {tabs.map((tab) => (
-//             <li
-//               className={
-//                 props.currentPage === tab ? "nav-item  navActive" : "nav-item  "
-//               }
-//               key={tab}
-//             >
-//               <a
-//                 href={"#" + tab.toLowerCase()}
 
-//                 onClick={() => props.handlePageChange(tab)}
-//                 className={
-//                   props.currentPage === tab ? "nav-link active" : "nav-link"
-//                 }
-//               >
-//                 {tab}
-//               </a>
-//             </li>
-//           ))}
-//         </ul>
-//         </nav>
-//   </div> */}
-//     );
 }
 
 export default Nav;

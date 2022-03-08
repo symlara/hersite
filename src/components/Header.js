@@ -17,6 +17,8 @@ function Header(props) {
                 <Nav currentPage={currentPage}
                 handlePageChange={handlePageChange} />
                 <img src={image} alt="back-of-my-mind" id="hero" />
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
             </div>
         </header>
     );
