@@ -9,11 +9,11 @@ function Albums () {
 
     return (
         <section  class="w-100 pv4 flex items-start" id="discography">
-             <article class="br2 ba white-60 mv4 w-100 w-50-m w-25-l mw5 center" id="volume-1">
+             <article class="br2 ba mv4 w-100 w-50-m w-25-l mw5 center tc" id="volume-1">
                   <img src={image2} alt="HER self-titled album" />
                   <h1>H.E.R</h1>
                   <div class="ph1">
-                    <ul class="list pl0 ml0 center mw6 ba white br2 h-100">
+                    <ul class="list pl0 ml0 center mw6 ba white br2 h-100 tc">
                       <li class="ph3 pv3 bb b--light-silver">Losing </li>
                       <li class="ph3 pv3 bb b--light-silver">Avenue</li>
                       <li class="ph3 pv3 bb b--light-silver">Let Me In</li>
@@ -40,11 +40,11 @@ function Albums () {
                 </article>
 
                 {/* <!-- I Used to Know Her album --> */}
-                <article class="br2 ba white-60 mv4 w-100 w-50-m w-25-l mw5 center" id="volume-2">
-                  <img src={image3} alt="I Used To Know HER album" />
+                <article class="br2 ba mv4 w-100 w-50-m w-25-l mw5 tc" id="volume-2">
+                  <img src={image3} alt="I Used To Know HER album center" />
                   <h1>I Used to Know Her</h1>
                   <div class="ph1">
-                    <ul class="list pl0 ml0 center mw6 ba white br2 h-100">
+                    <ul class="list pl0 ml0 center mw6 ba white br2 h-100 tc">
                       <li class="ph3 pv3 bb b--light-silver">Lost Souls (Ft. DJ Scratch)</li>
                       <li class="ph3 pv3 bb b--light-silver">Fate</li>
                       <li class="ph3 pv3 bb b--light-silver">Carried Away</li>
@@ -70,11 +70,11 @@ function Albums () {
                 </article>
 
                 {/* <!-- Back Of My Mind album --> */}
-              <article class="br2 ba white-60 mv4 w-100 w-50-m w-25-l mw5 center" id="volume-3">
+              <article class="br2 ba mv4 w-100 w-50-m w-25-l mw5 center tc" id="volume-3">
                 <img src={image4} alt="Back of My Mind album" />
                 <h1>Back Of My Mind</h1>
                 <div class="ph1">
-                <ul class="list pl0 ml0 center mw6 ba white br2 h-100">
+                <ul class="list pl0 ml0 center mw6 ba white br2 h-100 tc">
                       <li class="ph3 pv3 bb b--light-silver">We Made It</li>
                       <li class="ph3 pv3 bb b--light-silver">Back of My Mind (Ft. Ty Dolla $ign)</li>
                       <li class="ph3 pv3 bb b--light-silver">Trauma (Ft. Cordae)</li>
