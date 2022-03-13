@@ -12,7 +12,7 @@ function Header(props) {
         <header>
             <div>
             <div id="header">
-            <h1><a class="link dim white dib mr3 her tc" href="#" title="About"><i>H.E.R</i></a></h1>            
+            <h1><button class="link dim white dib mr3 her tc" href="/" title="About"><i>H.E.R</i></button></h1>            
             </div>
                 <Nav currentPage={currentPage}
                 handlePageChange={handlePageChange} />

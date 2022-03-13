@@ -8,7 +8,7 @@ class Dashboad extends Component {
     constructor(props) {
         super(props)
         this.handleAddComment = this.handleAddComment.bind(this)
-    {/* an array of comments which is empty by default but updates as users add comments */}
+    // {/* an array of comments which is empty by default but updates as users add comments */}
         this.state = {
           comments: []
         }
@@ -40,7 +40,7 @@ class Dashboad extends Component {
 
       render() {
         return (
-          <section className="section">
+          <section className="section" id="dashboard">
             <div className="container">
               <div className="columns">
                 <div className="dashboard center">

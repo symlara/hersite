@@ -8,7 +8,9 @@ import '../../src/index.css'
 function Albums () {
 
     return (
-        <section  class="w-100 pv4 flex items-start" id="discography">
+      <div>
+        <h1 id="discography">Discography</h1>
+        <section class="w-100 pv4 flex items-start discography" id="albums">
              <article class="br2 ba mv4 w-100 w-50-m w-25-l mw5 center tc" id="volume-1">
                   <img src={image2} alt="HER self-titled album" />
                   <h1>H.E.R</h1>
@@ -94,6 +96,7 @@ function Albums () {
                 </div>
               </article>
         </section>
+        </div>
     );
 
 }

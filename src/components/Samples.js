@@ -6,7 +6,7 @@ import 'tachyons';
 
 function Samples () {
     return (
-        <div>
+        <div id="samples">
 
             { 
               data && data.map( data => {
