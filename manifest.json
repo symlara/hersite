@@ -1,12 +1,13 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "H.E.R Fansite",
+  "short_name": "hersite",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "id":"/",
   "icons": [
-    {
-      "src": "symlardev_1.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
     {
       "src": "symlarlogo192.png",
       "type": "image/png",
@@ -15,11 +16,7 @@
     {
       "src": "symlarlogo_512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512"    
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }
