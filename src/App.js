@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { HashRouter, Route } from 'react-router-dom';
 // import Ably from './Ably';
-import Dashboard from './Dashboard';
+import Dashboard from './components/Dashboard';
 // import './index.css';
 
-import Samples from './Samples';
-import Header from './Header';
-import About from './About';
-import Albums from './Albums';
+import Samples from './components/Samples';
+import Header from './components/Header'
+import About from './components/About';
+import Albums from './components/Albums';
 // import Socials from './Socials';
-import Footer from './Footer';
+import Footer from './components/Footer';
 
 
 class App extends Component {
