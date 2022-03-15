@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 // import Ably from './Ably';
 import Dashboard from './components/Dashboard';
 // import './index.css';
@@ -49,8 +49,8 @@ class App extends Component {
  
   render() {
     return (
+      <Router>
       <div>
-      <HashRouter basmane="/">
         <div className="app">
           <Header />
 
@@ -63,8 +63,9 @@ class App extends Component {
           
           <Footer />
         </div>
-      </HashRouter>
+      
     </div>
+    </Router>
    
     );
   }
