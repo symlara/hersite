@@ -226,6 +226,15 @@ ul {
   font-size: 18px;
 }
 
+/* video styles */
+#video {
+  text-align: center;
+}
+
+#live-video {
+  text-align: center;
+}
+
 
 /* media queries */
 

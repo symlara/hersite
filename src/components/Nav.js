@@ -24,6 +24,9 @@ function Nav(props) {
             <li>
               <Link to="/dashboard">Dashboard</Link>
             </li>
+            <li>
+              <Link to="/videos">Videos</Link>
+            </li>
           </ul>
 
 
