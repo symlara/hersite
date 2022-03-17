@@ -1,4 +1,4 @@
-import React, { Suspense, lazy, Component } from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 // import Ably from './Ably';
 import Dashboard from './components/Dashboard';
@@ -7,13 +7,10 @@ import About from './components/About';
 import Videos from './components/Videos';
 import Albums from './components/Albums';
 import Footer from './components/Footer';
+import Header from './components/Header'
 // import './index.css';
 
-const Header = React.lazy(() => import("./components/Header"));
-
-
-
-
+// const Header = React.lazy(() => import("./components/Header"));
 
 // const Header = lazy(() => import ('./components/Header'));
 // const Samples = lazy(() => import('./components/Samples'));
@@ -61,7 +58,7 @@ class App extends Component {
       <Router>
       <div>
         <div className="app">
-        <React.Suspense fallback={<p>LOADING page...</p>}>
+        {/* <React.Suspense fallback={<p>LOADING</p>}> */}
 
           <Header />
          
@@ -73,7 +70,7 @@ class App extends Component {
             <Route exact path="/videos" component={Videos} />
           </main>
           
-          </React.Suspense>
+          {/* </React.Suspense> */}
           <Route exact path="/dashboard" component={Dashboard} />
           <Footer />
         </div>
