@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hersite/static/css/main.a3603285.css",
-    "main.js": "/hersite/static/js/main.e9e3e4f5.js",
+    "main.css": "/hersite/static/css/main.bf81f37c.css",
+    "main.js": "/hersite/static/js/main.2ee86222.js",
     "static/js/787.7efd31bd.chunk.js": "/hersite/static/js/787.7efd31bd.chunk.js",
     "static/media/her-returns-to-form-on-her-debut-album-back-of-my-mind.jpg": "/hersite/static/media/her-returns-to-form-on-her-debut-album-back-of-my-mind.2c6adf986886bd314092.jpg",
     "static/media/H.E.R._(2017)_album_cover.jpg": "/hersite/static/media/H.E.R._(2017)_album_cover.db92efbf87201981c79e.jpg",
@@ -10,12 +10,12 @@
     "static/media/I_Used_To_Know_Her.jpg": "/hersite/static/media/I_Used_To_Know_Her.34bd3079eb2d80fe5253.jpg",
     "static/media/SymlarDev.png": "/hersite/static/media/SymlarDev.bc5413d89130e3fefce4.png",
     "index.html": "/hersite/index.html",
-    "main.a3603285.css.map": "/hersite/static/css/main.a3603285.css.map",
-    "main.e9e3e4f5.js.map": "/hersite/static/js/main.e9e3e4f5.js.map",
+    "main.bf81f37c.css.map": "/hersite/static/css/main.bf81f37c.css.map",
+    "main.2ee86222.js.map": "/hersite/static/js/main.2ee86222.js.map",
     "787.7efd31bd.chunk.js.map": "/hersite/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3603285.css",
-    "static/js/main.e9e3e4f5.js"
+    "static/css/main.bf81f37c.css",
+    "static/js/main.2ee86222.js"
   ]
 }
