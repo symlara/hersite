@@ -1,24 +1,43 @@
 import React from "react";
 import 'tachyons';
+import image1 from '../assets/images/H.E.R._(2017)_album_cover.jpg';
+import image2 from '../assets/images/I_Used_To_Know_Her.jpg';
+import image3 from '../assets/images/Back_Of_My_Mind_By_H.E.R.png';
 import '../../src/index.css'
 
 function About() {
     return (
-      <div id="about">
-         <section className="fl w-100 white tc">
-                <div class="fl pa3 br4 tc">
-                  <h2 class="f2 tc lh-title tracked b" id="about">About</h2>
-                  <p class="tc lh-copy about">
-                  This site is a place where music fans can come together to celebrate our favorite artist, H.E.R, as well as communicate and have one centralized
-                  place to network and meet new people. It will also serve as another info hub for all things H.E.R. 
-                  <br>
-                  </br>
-                  </p>
-                </div>
-              </section>
+  <div class="container">
+        <div class="row">
+        <div class="col">
+        <div class="mw9 center">
+        <div class="cf ph2-ns">
+        <div class="fl w-25 w-third-ns">
+      <div class="bg-black">
+      <img loading="lazy" class="image1" src={image1} alt="HER self-titled album"/>
+      </div>
+    </div>
+
+    <div class="fl w-25 w-third-ns">
+      <div class="bg-black">
+        <img loading="lazy" class="image2" src={image2} alt="I Used To Know HER album center"/>
+      </div>
+    </div>
+    
+    <div class="fl w-25 w-third-ns">
+      <div class="bg-black">
+        <img loading="lazy" class="image3" src={image3} alt="Back of My Mind album" />
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+   
+     </div>
+
+       
           
-          
-          <section class="pv4 ph3 tc socials" id="socials">
+        <section class="pv6 ph3 tc socials" id="socials">
           <h2 class="f2 tc lh-title tracked b">Follow H.E.R</h2>
           <a class="link white-60 bg-transparent hover-white inline-flex items-center ma2 tc br2 pa2" href="https://smarturl.it/HERfb?IQid=site" target="_blank" rel="noreferrer" title="Facebook">
               <svg class="dib h2 w2" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fillRule="evenodd" clipRule="evenodd" strokeLinejoin="round" strokeMiterlimit="1.414"><path d="M15.117 0H.883C.395 0 0 .395 0 .883v14.234c0 .488.395.883.883.883h7.663V9.804H6.46V7.39h2.086V5.607c0-2.066 1.262-3.19 3.106-3.19.883 0 1.642.064 1.863.094v2.16h-1.28c-1 0-1.195.476-1.195 1.176v1.54h2.39l-.31 2.416h-2.08V16h4.077c.488 0 .883-.395.883-.883V.883C16 .395 15.605 0 15.117 0" fillRule="nonzero"/></svg>
@@ -41,8 +60,9 @@ function About() {
               <span class="f6 ml3 pr2">Twitter</span>
             </a>
       </section>
-          
-          </div>
+      
+  </div>
+         
     );
 }
 

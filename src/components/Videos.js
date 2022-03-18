@@ -26,7 +26,7 @@ return (
     <div class="video-container">
         <div class="fl w-25 pa2">
     <div class="outline bg-black">
-        <iframe width="100%" src="https://www.youtube.com/embed/PAFAfhod9TU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+        <iframe loading="lazy" width="100%" src="https://www.youtube.com/embed/PAFAfhod9TU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
     </div>
         </div>
         </div>
@@ -34,7 +34,7 @@ return (
     <div class="video-container">
         <div class="fl w-25 pa2">
         <div class="outline bg-black">
-        <iframe width="100%" src="https://www.youtube.com/embed/50GjhhyfN_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+        <iframe loading="lazy" width="100%" src="https://www.youtube.com/embed/50GjhhyfN_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
         </div>
         </div>
     </div>
@@ -42,7 +42,7 @@ return (
     <div class="video-container">
         <div class="fl w-25 pa2">
         <div class="outline bg-black">
-        <iframe width="100%" src="https://www.youtube.com/embed/Nu8TS2Vr6lo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </div>
+        <iframe loading="lazy" width="100%" src="https://www.youtube.com/embed/Nu8TS2Vr6lo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </div>
         </div>
     </div>
 </div>

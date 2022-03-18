@@ -12,18 +12,18 @@ function Nav(props) {
         <nav id="nav-items">
 
           <ul class="nav-link">
-            <li>
+            {/* <li>
               <Link to="/about">About</Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/albums">Albums</Link>
             </li>
             <li>
               <Link to="/samples">Samples</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/dashboard">Dashboard</Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/videos">Videos</Link>
             </li>

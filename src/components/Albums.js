@@ -7,6 +7,11 @@ import '../../src/index.css'
 
 function Albums () {
 
+  // {
+  //   All three of H.E.R's projects will be displayed on the website with the full track list along with singles and other collaborations that she has done. Links to listen to the music on streaming platforms will be provided on this page. 
+  // }
+  // add links to streaming platforms on this page?
+
     return (
       <div>
         <h1 id="discography">Discography</h1>

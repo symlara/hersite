@@ -14,8 +14,9 @@ function Header(props) {
             <div>
             <div>
             <h1 id="header">
-                <i><Link to="/" exact>H.E.R</Link></i>
-                </h1>        
+                <i><Link to="/" exact>She Gang Fansite</Link></i>
+                </h1>
+                <p class="description">"A PLACE FOR ALL H.E.R FANS TO FIND ALL THINGS H.E.R., SHE GANG ACTIVITIES, <br />SCHOOL AND CAREER RESOURCES AND A SENSE OF COMMUNITY."</p>        
             </div>
                 <Nav currentPage={currentPage}
                 handlePageChange={handlePageChange} />
