@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 // import Ably from './Ably';
-import Dashboard from './components/Dashboard';
+// import Dashboard from './components/Dashboard';
 import Samples from './components/Samples';
 import About from './components/About';
 import Videos from './components/Videos';
 import Albums from './components/Albums';
 import Footer from './components/Footer';
 import Header from './components/Header'
+import Socials from './components/Socials';
+import Updates from './components/Updates';
 // import './index.css';
 
 // const Header = React.lazy(() => import("./components/Header"));
@@ -68,10 +70,12 @@ class App extends Component {
             <Route exact path="/albums" component={Albums} />
             <Route exact path="/samples" component={Samples} />
             <Route exact path="/videos" component={Videos} />
+            <Route exact path="/socials" component={Socials} />
+            <Route exact path="/updates" component={Updates} />
           </main>
           
           {/* </React.Suspense> */}
-          <Route exact path="/dashboard" component={Dashboard} />
+          {/* <Route exact path="/dashboard" component={Dashboard} /> */}
           <Footer />
         </div>
       

@@ -18,6 +18,7 @@ function Nav(props) {
             <li>
               <Link to="/albums">Albums</Link>
             </li>
+
             <li>
               <Link to="/samples">Samples</Link>
             </li>
@@ -26,6 +27,18 @@ function Nav(props) {
             </li> */}
             <li>
               <Link to="/videos">Videos</Link>
+            </li>
+
+            <li>
+              <Link to="/socials">Socials</Link>
+            </li>
+
+            <li>
+              <Link to="/updates">H.E.R Updates</Link>
+            </li>
+
+            <li>
+              <Link to="/meetups">She gang meet ups</Link>
             </li>
           </ul>
 

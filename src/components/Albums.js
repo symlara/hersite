@@ -101,9 +101,16 @@ function Albums () {
                 </div>
               </article>
         </section>
+
+        <section class="pv6 ph3 tc socials" id="streaming">
+        <a class="link white-60 bg-transparent hover-white inline-flex items-center ma2 tc pa4" href="https://music.apple.com/us/artist/h-e-r/123049323" target="_blank" rel="noreferrer">🔂 Apple Music</a>
+        <a class="link white-60 bg-transparent hover-white inline-flex items-center ma2 tc pa4" href="https://open.spotify.com/artist/3Y7RZ31TRPVadSFVy1o8os" target="_blank" rel="noreferrer">🔂 Spotify</a>
+        <a class="link white-60 bg-transparent hover-white inline-flex items-center ma2 tc pa4" href="https://music.apple.com/us/album/back-of-my-mind-apple-music-edition/1571344275?ls=1&app=itunes&at=1l3vpUI&ct=g5nqhe%7Cher-official.com" target="_blank" rel="noreferrer"> → iTunes</a>
+        </section>
         </div>
     );
 
 }
 
 export default Albums;
+

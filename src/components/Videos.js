@@ -55,7 +55,7 @@ return (
         <div class="cf ph2-ns">
         <div class="fl w-25 pa2">
             <div class="outline bg-black">
-            <iframe width="100%" src="https://www.youtube.com/embed/ZapsCvLokU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe loading="lazy" width="100%" src="https://www.youtube.com/embed/ZapsCvLokU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
         </div>
