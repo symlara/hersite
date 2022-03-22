@@ -6,7 +6,7 @@ import 'tachyons';
 function Footer() {
     return (
         
-        <footer class="tc-l bg-center cover footer pa4">
+        <footer class="tc-l bg-center cover footer pa7">
         <div class="w-100 ph3 pv7">
             <p>&copy; Made by Aaliyah Symlar</p>
               <a class="link white-60 bg-transparent hover-white inline-flex items-center ma2 tc br2 pa2" href="https://www.linkedin.com/in/aaliyah-symlar-931213102" target="_blank" rel="noreferrer" title="LinkedIn">

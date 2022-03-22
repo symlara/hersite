@@ -38,7 +38,7 @@ function Nav(props) {
             </li>
 
             <li>
-              <Link to="/meetups">She gang meet ups</Link>
+              <Link to="/meetups">She Gang Meet-ups</Link>
             </li>
           </ul>
 
